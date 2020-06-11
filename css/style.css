@@ -682,7 +682,9 @@ footer .navbar-nav.mr-auto li a:hover {
 	.search-box {
 		left: 332px;
 	}
-
+	#banner {	 
+		min-height: 700px;
+	}
 
 	.banner-heading h1 {
 		font-size: 42px;
