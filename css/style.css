@@ -543,12 +543,303 @@ footer .navbar.navbar-expand-lg ul li a {
 	font-family: 'open sans';
 	padding: 10px 0px;
 }
-	@media only screen and (max-width: 480px) {
-		
-	.main-header .col-md-9 {
-		width: 50% !important;
+
+footer .navbar-nav.mr-auto li a:hover {
+	color: #00a1e9;
+}
+	@media only screen and (max-width: 1199px) {
+		.navbar.navbar-expand-lg ul li {
+			display: inline-block;
+			padding-right: 20px;
+		}	
+		footer .navbar.navbar-expand-lg ul li {
+			display: inline-block;
+			padding-right: 0px;
+		}
+
+		footer .navbar.navbar-expand-lg ul li a {
+			font-size: 11px;
+		}
+		.first-section h6 { 
+			font-size: 14px;
+		}
+
+		.first-section texxt {
+			font-size: 14px;
+		}
+}
+
+
+@media only screen and (max-width: 991px) {
+	.logo img {
+		width: 100%;
 	}
-	.main-header .col-md-3 {
-		width: 50%;
+	.navbar-toggler {
+		position: absolute;
+		right: 0px;
+		top: 10px;
+	}
+	.navbar.navbar-expand-lg ul li {
+		display: block;
+		padding-right: 20px;
+		text-align: center;
+	}
+	 
+	.navbar.navbar-expand-lg {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.search-box {
+		position: absolute;
+		top: 94%;
+		right: unset;
+		transform: translate(0%,-50%);
+		background: #00a1e9;
+		height: 40px;
+		border-radius: 50px;
+		padding: 0;
+		bottom: ;
+		left: 117px;
+	}
+	.banner-heading h1 {
+		font-size: 52px;
+	}
+	.a-m-headiing h1 {
+		font-size: 32px;
+	}
+	.a-m-headiing p {	 
+		width: 100%;
+		max-width: 80%;
+	}
+	.ms-icon h5 {
+		font-size: 16px;
+	}
+	.Q-heading h1 {
+		font-size: 28px;
+	}
+	.service-heading h1 {
+		font-size: 32px;
+	}
+	.service-shadow h5 {
+		font-size: 18px;
+	}
+	.service-shadow p {
+		font-size: 14px;
+	}
+	.s-t-heading p {
+	font-size: 24px;
+	}
+	.navbar-nav {
+	display: inline-block;
+	}
+	footer .col-md-6 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	footer .navbar.navbar-expand-lg ul li {
+		display: inline-block;
+		padding-right: 90px;
+	}
+	footer .navbar.navbar-expand-lg ul li a {
+		font-size: 12px;
+	}
+	footer .navbar-nav.mr-auto {
+		margin: 0 auto !important;
+		 
+	}
+
+	footer .col-md-3 {
+		-ms-flex: 0 0 25%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		float: left;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.main-header .logo img {
+		width: 100%;
+		max-width: 233px;
+		height: 71px;
+		object-fit: cover;
+	}
+	.main-header .navbar-toggler {
+		position: absolute;
+		right: 0px;
+		top: 22px;
+		left: 0;
+		margin: 0 auto;
+	}
+	.main-header .navbar-nav {
+		display: block;
+		padding-top: 70px;
+		text-align: center;
+	}
+	.search-box {
+		left: 332px;
+	}
+
+
+	.banner-heading h1 {
+		font-size: 42px;
+	}
+	.a-m-headiing h1 {
+		font-size: 28px;
+	}
+	.a-m-headiing p {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.a-m-headiing h4 {
+		font-size: 22px;
+	}
+	.ms-icon {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#quality-box {
+	padding: 60px 0px 0px;
+	}
+
+	.quality-img {
+		position: unset;
+	}
+
+	.Q-heading {
+		position: unset;
+		transform: unset;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#global-service {
+		padding: 0px 0px 50px;
+	}
+	.quality-img img {
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.service-shadow {
+	min-height: unset;
+	text-align: center;
+	}
+	#slide-blog {
+	background: #00a1e9;
+	}
+	.slick-slide img {
+		display: unset !important;
+	}
+
+	.s-t-heading p {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.slider-blog .back-arrow.slick-arrow {
+		left: 0px;
+	}
+	.slider-blog .next-arrow.slick-arrow {
+	right: 0;
+	}
+	footer .navbar-nav.mr-auto {
+		margin: 0 auto !important;
+		text-align: center;
+	}
+
+	footer .navbar.navbar-expand-lg ul li {
+		display: inline-block;
+		padding-right: 40px;
+	}
+	
+
+}
+@media only screen and (max-width: 601px) {
+	.search-box {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	} 
+	.banner-heading h1 {
+		font-size: 24px;
+	}
+
+	.banner-heading p {
+		font-size: 15px; 
+	}
+	.banner-heading a {
+	padding: 13px 20px;
+	font-size: 12px;
+	}
+	.a-m-headiing h1 {
+		font-size: 20px;
+	}
+	.a-m-headiing p { 
+	font-size: 15px;
+	}
+	.a-m-headiing h4 {
+		font-size: 18px;
+	}
+	.Q-heading h1 {
+		font-size: 20px;
+	}
+	.service-heading h1 {
+		font-size: 22px;
+	}
+	.s-t-heading p {
+		font-size: 18px;
+	}
+	.mascon-logo h4 {
+		font-size: 20px;
+	}
+	.mascon-logo h2 {
+	font-size: 22px;  
+	margin-bottom: 30px;
+	}
+	.request-btn {
+	padding: 12px 20px; 
+	font-size: 12px;
+	}
+	footer .navbar.navbar-expand-lg ul li {
+		padding-right: 10px;
+	}
+
+	footer .col-md-3 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		float: unset;
+	}
+	.s-f {
+	display: block;
+	}
+	.first-section {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+	.slick-slide img {
+		display: block;
+		width: 250px;
+		height: 250px;
+		object-fit: cover;
 	}
 }
